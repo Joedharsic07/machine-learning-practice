@@ -160,10 +160,17 @@ Algorithm:
 2. We categorize each item to its closest mean, and we update the mean’s coordinates, which are the averages of the items categorized in that cluster so far.
 3. We repeat the process for a given number of iterations and at the end, we have our clusters.
 
-
-
-
-
-
-
-
+Bias-Variance Trade Off:
+	The Bias-Variance Tradeoff is a fundamental concept in machine learning that describes the balance between two sources of error in a model: bias and variance. It helps us understand how to create a model that performs well on both the training data and unseen data 
+Bias:
+-Bias refers to errors made because the model is too simple to understand the true patterns in the data.
+-It often leads to underfitting, where the model performs poorly on both training and test data.
+-Example: Using a straight line to model data that follows a curve.
+Variance:
+-Variance refers to errors made because the model is too complex and overly sensitive to small variations in the training data.
+-It often leads to overfitting, where the model performs well on training data but poorly on test data.
+-Example: Using a highly flexible curve that tries to go through every data point, including noise.
+The Tradeoff:
+-Reducing bias makes the model more complex, which might increase variance.
+-Reducing variance simplifies the model, which might increase bias.
+-The goal is to find a balance where the model is just right—not too simple, not too complex.
