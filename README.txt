@@ -1,5 +1,7 @@
 ## start learning ML:
+
 What is Machine Learning?
+
 	Machine learning is a branch of artificial intelligence that enables algorithms to uncover hidden patterns within datasets, allowing them to make predictions on new, similar data without explicit programming for each task.
 
 Types Of Machine Learning:
@@ -172,3 +174,58 @@ The Tradeoff:
 -Reducing bias makes the model more complex, which might increase variance.
 -Reducing variance simplifies the model, which might increase bias.
 -The goal is to find a balance where the model is just right—not too simple, not too complex.
+
+Overfitting:
+	It occures when the model is perform well in the training while performing worse on the test dataset.
+
+How to fix Overfitting:
+1- Reduces the complaxity of the model
+2- collect more data
+3- Use resampling technique
+4- Early stopping
+5- Ensemble methods
+6- Dropout
+
+Regularization:
+Regularization or shrinkage is a model that shrinks some of the estimated coefficients towards zero, to pentalize unimportant variables for incresing the variance of the model
+- Used to solve the overfitting problem
+- introduces a little bias in model to decreases its variance 
+
+Types of Regularization:
+- Ridge Regression based on L2 norm
+- lasso Regression based on L1 norm
+- Dropout (in NN)
+
+Ridge Regression:
+	Ridge Regression or L2 regularization is a srinkage technique that aims to solve Overflittingn by shrinking some of the model coefficients towarde o
+	L2 norm is a mathematical term comming from Linear Algebra and it stands for Euclidean norm or Distance
+pros:
+- solves overfitting
+- Lower model variance
+- computationally cheap 
+cons:
+-low interpretability
+
+lasso Regression:
+	Lasso Regression or L1 regularization is a srinkage technique that aims to solve Overflittingn by shrinking some of the model coefficients towarde 0 and setting some to exactly 0
+	L1 norm is a mathematical term coming from Linear Algebra and it stands for a manhattan norm or distance
+pros:
+- solves overfitting
+- easy to understand
+- high interpretability
+- feature selection
+cons:
+- higher variance than Ridge 
+
+Dependent Variable:
+	Dependent Variable is the variable that is being measured or tested. It is called the dependent variable because it is though to depend on the independent variables
+
+Independent Variable:
+	It is the variable that is being manipulated or controlled in the experiment, and it is belived to have an effect on the dependent variable
+Statistical Significant Effect:
+	It means that this effect in unlikely to have occured by chance. In other words, a statistically significant effect in one that is likely to be real and not due to random chance
+Logistic Regression:
+	It is a supervised classification technique that models conditional probablity of an event occuring or observation belong to a certain class,given of dependent variables
+
+	- Relation between two variaables is liniear 
+	- Logistic function,too large and too small values [0,1]
