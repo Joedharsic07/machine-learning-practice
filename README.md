@@ -267,16 +267,15 @@ Descriptive statistics summarize data to make it easy to understand.
 
 ##  Data Visualization:
 Data visualization shows data as graphs or charts to make it easier to see patterns.
-The purpose is Makes large datasets simple to understand, Helps spot trends, patterns, or outliers and Communicates findings clearly.
+The purpose is to make large datasets simple to understand, Help spot trends, patterns, or outliers, and Communicate findings clearly.
 ## Types of Visualizations:
-1.For Single Variables:
+1. For Single Variables:
 - Histogram: Shows the frequency of data in ranges (bins).
 - Box Plot: Displays data spread, median, quartiles, and outliers.
-2.For Two Variables:
+2. For Two Variables:
 - Scatter Plot: Shows the relationship between two numbers.
 - Bar Chart: Compares categories (e.g., average sales by region).
 - Line Chart: Displays trends over time.
-3.For Multiple Variables:
+3. For Multiple Variables:
 - Heatmap: Shows correlation or relationships between variables.
 - Pair Plot: Combines multiple scatter plots for comparison.
-  
