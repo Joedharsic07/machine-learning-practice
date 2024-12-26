@@ -279,3 +279,8 @@ The purpose is to make large datasets simple to understand, Help spot trends, pa
 3. For Multiple Variables:
 - Heatmap: Shows correlation or relationships between variables.
 - Pair Plot: Combines multiple scatter plots for comparison.
+
+# OLS model:
+   An OLS model (Ordinary Least Squares) is a way to find the best-fitting straight line through a set of data points. It’s a method used in regression analysis to predict or explain the relationship between one variable and one or more other variables.
+1. It tries to minimize the distance between the actual data points and the line it draws. These distances are called "errors" or "residuals."
+2. The line that makes the sum of the squared errors as small as possible is chosen as the "best fit."
