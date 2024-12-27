@@ -284,3 +284,12 @@ The purpose is to make large datasets simple to understand, Help spot trends, pa
    An OLS model (Ordinary Least Squares) is a way to find the best-fitting straight line through a set of data points. It’s a method used in regression analysis to predict or explain the relationship between one variable and one or more other variables.
 1. It tries to minimize the distance between the actual data points and the line it draws. These distances are called "errors" or "residuals."
 2. The line that makes the sum of the squared errors as small as possible is chosen as the "best fit."
+# Assumptions of Linear Regression:
+# 1. Linearity:
+   The relationship between the dependent (predicted) and independent (predictor) variable should be a straight line.
+# 2. Independence:
+   Data points should not depend on each other. No one value should affect another.
+# 3. Exogeneity:
+   The predictors (independent variables) should only influence the dependent variable (what you're trying to predict) and not be influenced by anything else in the error term.
+# 4. Homoscedasticity:
+   The spread of errors should be roughly the same for all predicted values. (Errors have equal variance.)
